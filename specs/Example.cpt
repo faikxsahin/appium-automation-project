@@ -1,0 +1,58 @@
+Created by testinium on 28.02.2022
+
+This is a concept file with following syntax for each concept.
+
+# Open the Özdilekteyim app, than control if the page opens successfully and press the start button
+* Wait "3" seconds
+* Check if the app opens and press the start shopping button
+* Wait "3" seconds
+
+# Check if the Home Page opens
+* Market - Check the button with id "com.ozdilek.ozdilekteyim:id/tvMarketName"
+* Wait "3" seconds
+
+# Catagories page opens
+* Categories - Click to the element with id "com.ozdilek.ozdilekteyim:id/nav_categories"
+* Wait "3" seconds
+
+# Click to the Woman button in Categories Menu
+* Woman - Click to the element with id "//*[@resource-id='com.ozdilek.ozdilekteyim:id/relLayCategoriesItem'][2]"
+* Wait "3" seconds
+
+# Open the Pants page than scroll down two times
+* Pants - Click to the element with id "//*[@resource-id='com.ozdilek.ozdilekteyim:id/relLayCategoriesItem'][14]"
+* Wait "3" seconds
+* "<Scroll down>"
+* Wait "3" seconds
+* "<Scroll down>"
+* Wait "3" seconds
+
+# Choose a random product than check if the page opens successfully
+* Choose random product
+* Wait "3" seconds
+* Check element with "com.ozdilek.ozdilekteyim:id/tvSizeDesc" product detail control
+* Wait "3" seconds
+
+# Click and to favorite button
+* Favorites - Click to the element with id "//*[@resource-id='com.ozdilek.ozdilekteyim:id/relLayAddFav']"
+* Wait "3" seconds
+
+# Check if the Login page opens than enter the username and password
+* Login - Check the button with id "com.ozdilek.ozdilekteyim:id/cbRememberMe"
+* Wait "3" seconds
+* ID - element "com.ozdilek.ozdilekteyim:id/etEposta" write "faiksahin"
+* Wait "3" seconds
+* Password - element "com.ozdilek.ozdilekteyim:id/etPassword" write "12345"
+* Wait "3" seconds
+
+# Click to the Back button two times and choose a random item
+* Back - Click to the element with id "com.ozdilek.ozdilekteyim:id/ivBack"
+* Wait "3" seconds
+* Back - Click to the element with id "com.ozdilek.ozdilekteyim:id/ivBack"
+* Wait "3" seconds
+* Choose random product
+* Wait "3" seconds
+
+# Add the item to the cart
+* Add to Cart - Click to the element with id "com.ozdilek.ozdilekteyim:id/relLayAddCartBtn"
+* Wait "3" seconds
